@@ -4,6 +4,7 @@
     "description": "Rail syntax highlighting.",
     "version": "0.0.1",
     "repository": "https://github.com/hiljusti/rail-lang-vscode-extension",
+    "publisher": "hiljusti",
     "engines": {
         "vscode": "^1.68.0"
     },
