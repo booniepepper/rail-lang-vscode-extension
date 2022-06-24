@@ -1,0 +1,25 @@
+{
+    "name": "rail-lang",
+    "displayName": "rail-lang",
+    "description": "Rail syntax highlighting.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rail",
+            "aliases": ["Rail", "rail"],
+            "extensions": [".rail"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rail",
+            "scopeName": "source.rail",
+            "path": "./syntaxes/rail.tmLanguage.json"
+        }]
+    }
+}
