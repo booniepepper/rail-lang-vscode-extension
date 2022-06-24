@@ -3,18 +3,21 @@
 	"name": "Rail",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#comments"
 		},
 		{
 			"include": "#strings"
 		}
 	],
 	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.rail",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.rail",
+          "begin": "#",
+          "end": "\n"
+        }
+      ]
 		},
 		"strings": {
 			"name": "string.quoted.double.rail",
@@ -26,7 +29,7 @@
 					"match": "\\\\."
 				}
 			]
-		}
+    }
 	},
 	"scopeName": "source.rail"
 }
