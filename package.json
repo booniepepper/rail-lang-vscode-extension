@@ -2,11 +2,11 @@
     "name": "rail-lang",
     "displayName": "rail-lang",
     "description": "Rail syntax highlighting.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "repository": "https://github.com/hiljusti/rail-lang-vscode-extension",
     "publisher": "hiljusti",
     "engines": {
-        "vscode": "^1.68.0"
+        "vscode": "^1.60.0"
     },
     "categories": [
         "Programming Languages"
