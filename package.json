@@ -3,8 +3,8 @@
     "displayName": "rail-lang",
     "description": "Rail syntax highlighting.",
     "version": "0.1.0",
-    "repository": "https://github.com/hiljusti/rail-lang-vscode-extension",
-    "publisher": "hiljusti",
+    "repository": "https://github.com/booniepepper/rail-lang-vscode-extension",
+    "publisher": "booniepepper",
     "engines": {
         "vscode": "^1.60.0"
     },

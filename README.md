@@ -1,4 +1,4 @@
 # rail-lang README
 
-[Rail](https://github.com/hiljusti/rail) language syntax highlighting.
+[Rail](https://github.com/booniepepper/rail) language syntax highlighting.
 
